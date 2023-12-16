@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personal Portfolio Website - Satyam Kumar Jha</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/8556cd34b3.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="header">
+
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id = "sidemenu">
+                        <li>
+                            <a href="#header">Home</a>
+                           
+                        </li>
+                        <li>
+                            <a href="#aboutMe">About Me</a>
+                            
+                        </li>
+                        <li>
+                            <a href="#services">Services</a>
+                            
+                        </li>
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
+                           
+                        </li>
+                        <li>
+                            <a href="#contact">Contact Me</a>
+                        </li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Flutter Developer</p>
+                    <h1>Hi, I am <span>Satyam</span><br>from New Delhi, India</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- this section is for the ABOUT section of portfolio -->
+        <div id="aboutMe">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.png" >
+                    </div>
+
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I have done more than 10 flutter projects in the span of 3 years which is from late 2020 till now and I've published 4 application on the play store and one is about to live on the app store
+
+                            as well
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>
+                                        App Development ?</span><br>
+                                        Ui Designs and Api integration
+                                    
+                                </li>
+
+                                <li>
+                                    <span>
+                                        UI/UX ?<br> </span>
+                                        Design Ui for applications and websites
+                                   
+                                </li>
+
+                                <li>
+                                    <span>
+                                        Figma ?<br></span>
+                                        Design Ui/Ux in figma
+                                    
+                                </li>
+                            </ul>
+                     
+                     
+                     
+                            </div>
+
+
+                            <div class="tab-content" id="experience">
+                                <ul>
+                                    <li>
+                                        <span>
+                                            Aug 2023 - Current</span><br>
+                                            Flutter Developer at NzSoftech Pvt. Ltd
+                                        
+                                    </li>
+    
+                                    <li>
+                                        <span>
+                                            March 2023 - Aug 2023</span><br>
+                                            Flutter Developer Intern at Ensar Solutions Pvt. Ltd
+                                        
+                                    </li>
+    
+                                    <li>
+                                        <span>
+                                            March 2022 - March 2022</span><br>
+                                            Flutter Developer Freelance
+                                        
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            Nov 2022 - March 2023</span><br>
+                                            Flutter Developer Intern at Flywise Pvt. Ltd
+                                        
+                                    </li>
+
+
+                                    <li>
+                                        <span>
+                                            Sept 2022 - Nov 2022</span><br>
+                                            Flutter Developer Intern at Websphisers Pvt. Ltd
+                                        
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            Dec 2021 - Aug 2022</span><br>
+                                            Android Developer Intern at I-Soft Pvt. Ltd
+                                        
+                                    </li>
+                                </ul>
+                         
+                     
+                     
+                        </div>
+                   
+
+
+
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li>
+                                    <span>
+                                        2018</span><br>
+                                        School Education From CBSE Board
+                                    
+                                </li>
+
+                                <li>
+                                    <span>
+                                        2018-2021</span><br>
+                                       Diploma in ITES&M From BTE Delhi
+                                    
+                                </li>
+
+                                <li>
+                                    <span>
+                                        2022 - Current</span><br>
+                                       BTECH in IT From GGSIPU
+                                    
+                                </li>
+
+                                
+                            </ul>
+                     
+                 
+                 
+                    </div>
+               
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+         <!-- this section is for the Services section of portfolio -->
+         <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Development</h2>
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+
+                    <div>
+                        <i class="fa-brands fa-uikit"></i>
+                        <h2>Figma</h2>
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX</h2>
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                     
+                </div>
+            </div>
+         </div>
+
+
+
+           <!-- this section is for the Porfolio section of portfolio -->
+
+           <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>
+                                Prayas
+                            </h3>
+                            <p>
+                                This is a community based app to connect the peoole from same community who live in a same area 
+                            </p>
+                            <a href="#"> <i class="fa-solid fa-link"></i></a>
+                           
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>
+                                Prayas
+                            </h3>
+                            <p>
+                                This is a community based app to connect the peoole from same community who live in a same area 
+                            </p>
+                            <a href="#"> <i class="fa-solid fa-link"></i></a>
+                           
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>
+                                Prayas
+                            </h3>
+                            <p>
+                                This is a community based app to connect the peoole from same community who live in a same area 
+                            </p>
+                            <a href="#"> <i class="fa-solid fa-link"></i></a>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+            <a href="#" class="btn">See More</a>
+           </div>
+       
+            <!-- this section is for the Contact section of portfolio -->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">
+                            Contact Me
+                        </h1>
+                        <p>  <i class="fa-solid fa-paper-plane"></i>Satyamjha9911@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+91-9319935674</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/satyam-kumar-jha-2b14b11a4/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/Satyamj148"><i class="fa-brands fa-square-x-twitter"></i></a>
+                            <a href="https://www.instagram.com/satyamjha148/"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="images/Satyam's Resume.pdf" download class="btn btn2">Download Cv</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Enter your name " required>
+                            <input type="email" name="Email" placeholder="Enter your email address " required>
+                            <textarea name="Messsage"  rows="10" placeholder="Enter your message "></textarea>
+                            <button type="submit" class="btn btn2"  >
+                                Submit
+                            </button>
+                        </form>
+
+                        <span id="msg"> 
+                            
+                        </span>
+                    </div>
+            </div>
+        </div>
+       
+        </div>
+       </div>
+       <div class="copyright">
+        <footer>
+        <p>
+            Copyright © Satyam Kumar Jha. Made with <i class="fa-solid fa-heart"></i>
+        </p>
+    </footer>
+       <script>
+
+            var tablinks = document.getElementsByClassName('tab-links');
+            var tabcontents = document.getElementsByClassName('tab-content');
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove('active-link');
+                }
+
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove('active-tab');
+                }
+
+                event.currentTarget.classList.add('active-link')
+                document.getElementById(tabname).classList.add('active-tab')
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = '0';
+
+            }
+            function closemenu(){
+                sidemenu.style.right = '-200px'
+            }
+        </script>
+
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbypxa0OyTAd82VTTuY0KRfQ0G6_DPfKBR29gsTZEkK4ddsOR1HtbxR0ioT8C59sGHik/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+
+            form.reset() 
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
